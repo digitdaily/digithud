@@ -7,7 +7,6 @@
         "fieldName"     "HudPlayerClass"
         "xpos"          "0"
         "ypos"          "0"
-        "ypos_minmode"  "18"
         "zpos"          "1"
         "wide"          "f0"
         "tall"          "480"
@@ -19,7 +18,6 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "AMMO"
         "xpos"          "c26"
-        "xpos_minmode"  "58"
         "ypos"          "403"
         "zpos"          "3"
         "wide"          "8"
@@ -58,16 +56,12 @@
         "ControlName"   "CTFClassImage"
         "fieldName"     "PlayerStatusClassImage"
         "xpos"          "391"    [$WIN32] // 383
-        "xpos_minmode"  "15"    [$WIN32]
         "ypos"          "c145"   [$WIN32]
-        "ypos_minmode"  "r54"   [$WIN32]
         "xpos"          "57"    [$X360]
         "ypos"          "r110"  [$X360]
         "zpos"          "2"
         "wide"          "31"
-        "wide_minmode"  "37"
         "tall"          "31"
-        "tall_minmode"  "37"
         "visible"       "1"
         "enabled"       "1"
 		"image"         "../hud/class_scoutred"
@@ -78,16 +72,12 @@
         "ControlName"   "CTFImagePanel"
         "fieldName"     "PlayerStatusSpyImage"
         "xpos"          "9999"     [$WIN32]
-        "xpos_minmode"  "-5"    [$WIN32]
         "ypos"          "r65"   [$WIN32]
-        "ypos_minmode"  "r44"   [$WIN32]
         "xpos"          "35"    [$X360]
         "ypos"          "r89"   [$X360]
         "zpos"          "2"
         "wide"          "25"
-        "wide_minmode"  "27"
         "tall"          "25"
-        "tall_minmode"  "27"
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/class_spyred"
@@ -100,16 +90,12 @@
         "ControlName"   "CTFImagePanel"
         "fieldName"     "PlayerStatusSpyOutlineImage"
         "xpos"          "383"     [$WIN32]
-        "xpos_minmode"  "-5"    [$WIN32]
         "ypos"          "r65"   [$WIN32]
-        "ypos_minmode"  "r44"   [$WIN32]
         "xpos"          "35"    [$X360]
         "ypos"          "r89"   [$X360]
         "zpos"          "7"
         "wide"          "25"
-        "wide_minmode"  "27"
         "tall"          "25"
-        "tall_minmode"  "27"
         "visible"       "0"
         "enabled"       "1"
         "image"         "../hud/class_spy_outline"
@@ -120,9 +106,7 @@
         "ControlName"   "CTFImagePanel"
         "fieldName"     "PlayerStatusClassImageBG"
         "xpos"          "99999"     [$WIN32]
-        "xpos_minmode"  "-10"       [$WIN32]
         "ypos"          "r60"   [$WIN32]
-        "ypos_minmode"      "r40"   [$WIN32]
         "xpos"          "41"    [$X360]
         "ypos"          "r82"   [$X360]
         "zpos"          "1"     
@@ -143,9 +127,7 @@
         "ControlName"   "CTFImagePanel"
         "fieldName"     "classmodelpanelBG"
         "xpos"          "99999"        [$WIN32]
-        "xpos_minmode"  "-15"       [$WIN32]
         "ypos"          "r60"   [$WIN32]
-        "ypos_minmode"      "r40"   [$WIN32]
         "xpos"          "41"    [$X360]
         "ypos"          "r82"   [$X360]
         "zpos"          "1"     
@@ -167,14 +149,10 @@
         "fieldName"     "classmodelpanel"
         
         "xpos"          "370" [$WIN32]
-        "xpos_minmode"  "0" [$WIN32]
         "ypos"          "r164"  [$WIN32]
-        "ypos_minmode"  "r88"   [$WIN32]
         "zpos"          "2"     
         "wide"          "50"
-        "wide_minmode"  "52"
         "tall"          "100"
-        "tall_minmode"  "102"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -213,118 +191,91 @@
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "225"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Sniper"
             {
                 "fov"           "16"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Soldier"
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Demoman"
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Medic"
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Heavy"
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Pyro"
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "200"
                 "angles_z"      "-3"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Spy"
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
             "Engineer"
             {
                 "fov"           "20"
                 "angles_x"      "-20"
-                "angles_x_minmode"  "-3"
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_y_minmode"  "-8"
                 "origin_z"      "-90"
-                "origin_z_minmode"  "-50"
             }
         }
     }
@@ -334,28 +285,20 @@
         "ControlName"           "EditablePanel"
         "fieldName"             "CarryingWeapon"
         "xpos"                  "384"
-        "xpos_minmode"          "90"
         "ypos"                  "r58"
-        "ypos_minmode"          "r36"
         "zpos"                  "100"
         "wide"                  "500"
-        "wide_minmode"          "500"
         "tall"                  "28"
-        "tall_minmode"          "28"
 
         "CarryingBackground"
         {
             "ControlName"           "CTFImagePanel"
             "fieldName"             "CarryingBackground"
             "xpos"                  "0"
-            "xpos_minmode"          "0"
             "ypos"                  "0"
-            "ypos_minmode"          "0"
             "zpos"                  "0"
             "wide"                  "p1"
-            "wide_minmode"          "f0"
             "tall"                  "f0"
-            "tall_minmode"          "f0"
             "autoResize"            "0"
             "pinCorner"             "0"
             "visible"               "1"
@@ -381,16 +324,11 @@
             "ControlName"       "CExLabel"
             "fieldName"         "CarryingLabel"
             "font"              "NotoSans12"
-            "font_minmode"      "TFFontMedium"
             "xpos"              "9999"
-            "xpos_minmode"      "5"
             "ypos"              "3"
-            "ypos_minmode"      "2"
             "zpos"              "1"
             "wide"              "200"
-            "wide_minmode"      "f0"
             "tall"              "f0"
-            "tall_minmode"      "f0"
             "autoResize"        "0"
             "pinCorner"         "0"
             "visible"           "1"
@@ -408,16 +346,11 @@
             "ControlName"       "CExLabel"
             "fieldName"         "CarryingLabelDropShadow"
             "font"              "NotoSans12"
-            "font_minmode"      "TFFontMedium"
             "xpos"              "5"
-            "xpos_minmode"      "6"
             "ypos"              "p0.12"
-            "ypos_minmode"      "3"
             "zpos"              "0"
             "wide"              "200"
-            "wide_minmode"      "f0"
             "tall"              "f0"
-            "tall_minmode"      "f0"
             "autoResize"        "0"
             "pinCorner"         "0"
             "visible"           "1"
@@ -436,16 +369,11 @@
             "ControlName"       "Label"
             "fieldName"         "OwnerLabel"
             "font"              "FontStoreOriginalPrice"
-            "font_minmode"      "TFFontSmall"
             "xpos"              "5"
-            "xpos_minmode"      "5"
             "ypos"              "12"
-            "ypos_minmode"      "10"
             "zpos"              "0"
             "wide"              "200"
-            "wide_minmode"      "f0"
             "tall"              "f0"
-            "tall_minmode"      "f0"
             "autoResize"        "0"
             "pinCorner"         "0"
             "visible"           "1"
