@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"349"	[$WIN32]
-		"ypos"			"r123"	[$WIN32]
+		"xpos"			"361"	[$WIN32]
+		"ypos"			"r140"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
-		"wide"			"115"
+		"wide"			"142"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"57"
+		"xpos"					"71"
 		"ypos"					"13"
 		"zpos"					"2"
 		"wide"					"41"
@@ -64,7 +64,7 @@
 		"xpos"					"40"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"80"
+		"wide"					"102"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

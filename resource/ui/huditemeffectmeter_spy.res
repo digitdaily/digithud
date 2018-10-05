@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"c112"	[$WIN32]
+		"ypos"			"c111"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"130"
@@ -78,11 +78,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"55"
-		"ypos"					"35"
+		"xpos"					"51"
+		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"44"
-		"tall"					"20"	
+		"tall"					"30"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -91,7 +91,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NotoSans14"
+		"font"					"NotoSans30"
 		"fgcolor" 				"0 255 100 255"
 	}
 }

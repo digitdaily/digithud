@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-87"	[$WIN32]
-		"ypos"			"c96"	[$WIN32]
+		"xpos"			"c-75"	[$WIN32]
+		"ypos"			"c88"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"300"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"66"
+		"xpos"					"80"
 		"ypos"					"14"
 		"zpos"					"2"
 		"wide"					"41"
@@ -63,7 +63,7 @@
 		"xpos"					"49"
 		"ypos"					"24"
 		"zpos"					"2"
-		"wide"					"75"
+		"wide"					"102"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

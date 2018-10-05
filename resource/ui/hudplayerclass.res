@@ -17,11 +17,11 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "AMMO"
-        "xpos"          "c26"
-        "ypos"          "403"
+        "xpos"          "c57"
+        "ypos"          "395"
         "zpos"          "3"
-        "wide"          "8"
-        "tall"          "8"
+        "wide"          "15"
+        "tall"          "15"
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/hud_obj_status_ammo_64" // "../vgui/replay/thumbnails/ammo"
@@ -31,11 +31,11 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "TeamBox"
-        "xpos"          "c-38"
-        "ypos"          "c145"
+        "xpos"          "c-26"
+        "ypos"          "c128"
         "zpos"          "0"
-        "wide"          "75"
-        "tall"          "31"
+        "wide"          "102"
+        "tall"          "47"
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/color_panel_brown"
@@ -51,17 +51,32 @@
         "draw_corner_width"     "0"
         "draw_corner_height"    "0" 
     } 
+	"Box"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Box"
+        "xpos"          "c-75"
+        "ypos"          "c128"
+        "zpos"          "0"
+        "wide"          "49"
+        "tall"          "47"
+		"fillcolor"		"32 32 32 240"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
     "PlayerStatusClassImage" // 2D CHARACTER
     {
         "ControlName"   "CTFClassImage"
         "fieldName"     "PlayerStatusClassImage"
-        "xpos"          "391"    [$WIN32] // 383
-        "ypos"          "c145"   [$WIN32]
+        "xpos"          "355"    [$WIN32] // 383
+        "ypos"          "c130"   [$WIN32]
         "xpos"          "57"    [$X360]
         "ypos"          "r110"  [$X360]
         "zpos"          "2"
-        "wide"          "31"
-        "tall"          "31"
+        "wide"          "45"
+        "tall"          "45"
         "visible"       "1"
         "enabled"       "1"
 		"image"         "../hud/class_scoutred"
@@ -148,11 +163,11 @@
         "ControlName"   "CTFPlayerModelPanel"
         "fieldName"     "classmodelpanel"
         
-        "xpos"          "370" [$WIN32]
-        "ypos"          "r164"  [$WIN32]
+        "xpos"          "348" [$WIN32]
+        "ypos"          "317"  [$WIN32]
         "zpos"          "2"     
         "wide"          "50"
-        "tall"          "100"
+        "tall"          "98"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -195,7 +210,7 @@
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_z"      "-90"
+                "origin_z"      "-80"
             }
             "Sniper"
             {
@@ -224,8 +239,8 @@
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
-                "origin_y"      "-5"
-                "origin_z"      "-90"
+                "origin_y"      "-7"
+                "origin_z"      "-85"
             }
             "Medic"
             {
@@ -234,8 +249,8 @@
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
-                "origin_y"      "-5"
-                "origin_z"      "-90"
+                "origin_y"      "-12"
+                "origin_z"      "-88"
             }
             "Heavy"
             {
@@ -245,7 +260,7 @@
                 "angles_z"      "-10"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_z"      "-90"
+                "origin_z"      "-92"
             }
             "Pyro"
             {
@@ -255,7 +270,7 @@
                 "angles_z"      "-3"
                 "origin_x"      "165"
                 "origin_y"      "-5"
-                "origin_z"      "-90"
+                "origin_z"      "-80"
             }
             "Spy"
             {
@@ -274,8 +289,8 @@
                 "angles_y"      "220"
                 "angles_z"      "-10"
                 "origin_x"      "165"
-                "origin_y"      "-5"
-                "origin_z"      "-90"
+                "origin_y"      "-7"
+                "origin_z"      "-80"
             }
         }
     }
@@ -284,8 +299,8 @@
     {
         "ControlName"           "EditablePanel"
         "fieldName"             "CarryingWeapon"
-        "xpos"                  "384"
-        "ypos"                  "r58"
+        "xpos"                  "347"
+        "ypos"                  "r59"
         "zpos"                  "100"
         "wide"                  "500"
         "tall"                  "28"

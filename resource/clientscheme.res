@@ -3115,6 +3115,61 @@ Scheme
                 "antialias" "1"
             }
         }
+		
+		NotoSans22
+        {
+            "1"
+            {
+                "name"      "Noto Sans Bold"
+                "tall"      "22"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }
+		
+		NotoSans24
+        {
+            "1"
+            {
+                "name"      "Noto Sans Bold"
+                "tall"      "24"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }
+		
+		NotoSans26
+        {
+            "1"
+            {
+                "name"      "Noto Sans Bold"
+                "tall"      "26"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }
+		
+		NotoSans28
+        {
+            "1"
+            {
+                "name"      "Noto Sans Bold"
+                "tall"      "28"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }
+		
+		NotoSans30
+        {
+            "1"
+            {
+                "name"      "Noto Sans Bold"
+                "tall"      "30"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }
 						
 		MyFont6
         {
@@ -3210,6 +3265,50 @@ Scheme
             {
                 "name"      "My Font Regular"
                 "tall"      "22"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }	
+
+		MyFont24
+        {
+            "1"
+            {
+                "name"      "My Font Regular"
+                "tall"      "24"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }	
+
+		MyFont26
+        {
+            "1"
+            {
+                "name"      "My Font Regular"
+                "tall"      "26"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }
+
+		MyFont28
+        {
+            "1"
+            {
+                "name"      "My Font Regular"
+                "tall"      "28"
+                "weight"    "500"
+                "antialias" "1"
+            }
+        }	
+
+		MyFont30
+        {
+            "1"
+            {
+                "name"      "My Font Regular"
+                "tall"      "30"
                 "weight"    "500"
                 "antialias" "1"
             }

@@ -5,11 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"344"	[$WIN32]
-		"ypos"			"356"	[$WIN32]
+		"xpos"			"356"	[$WIN32]
+		"ypos"			"339"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
-		"wide"			"125"
+		"wide"			"300"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -63,7 +63,7 @@
 		"xpos"					"45"
 		"ypos"					"24"
 		"zpos"					"2"
-		"wide"					"75"
+		"wide"					"102"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

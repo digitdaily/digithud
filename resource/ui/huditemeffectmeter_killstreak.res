@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"440"	[$WIN32]
-		"ypos"			"397"	[$WIN32]
+		"xpos"			"477"	[$WIN32]
+		"ypos"			"390"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -37,10 +37,10 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "AMMO"
         "xpos"          "25"
-        "ypos"          "3"
+        "ypos"          "1"
         "zpos"          "2"
-        "wide"          "15"
-        "tall"          "15"
+        "wide"          "24"
+        "tall"          "24"
         "visible"       "1"
         "enabled"       "1"
 		"textAlignment"			"north"
@@ -92,8 +92,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"38"
-		"ypos"					"-1"
+		"xpos"					"47"
+		"ypos"					"2"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"22"	
@@ -105,6 +105,6 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NotoSans16"
+		"font"					"NotoSans22"
 	}
 }

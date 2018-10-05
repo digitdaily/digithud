@@ -54,8 +54,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"20"
-		"ypos"			"112"
+		"xpos"			"38"
+		"ypos"			"102"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
 		"wide"			"55"
@@ -66,10 +66,10 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"
+		"textAlignment"	"left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NotoSans12"
+		"font"			"NotoSans22"
 		"font_lodef"	"HudFontMedium"
 		"fgcolor" "0 255 100 255"
 	}
