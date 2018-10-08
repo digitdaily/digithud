@@ -486,6 +486,75 @@
 		"textAlignment"	"east"
 		"centerwrap"	"1"
 	}
+	
+	"RedButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RedButton"
+		"xpos"				"c5"
+		"ypos"				"22"
+		"zpos"				"12"
+		"wide"				"80"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"RED Team"
+		"textAlignment"		"center"
+		"font"				"NotoSans16"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" "255 255 255 255"
+		"armedFgColor_override" "255 255 255 255"
+		"depressedFgColor_override" "255 255 255 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"keyboardinputenabled"	"0"
+		"paintbackground"	"1"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+	}
+	
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-85"
+		"ypos"				"22"
+		"zpos"				"12"
+		"wide"				"80"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"BLU Team"
+		"textAlignment"		"center"
+		"font"				"NotoSans16"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" "255 255 255 255"
+		"armedFgColor_override" "255 255 255 255"
+		"depressedFgColor_override" "255 255 255 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		"paintbackground"		"1"
+		"border_default"		"NoBorder"
+		"border_armed"			"NoBorder"
+		"border_depressed"		"NoBorder"
+	}
 
 	"CharacterLoadoutButton"
 	{

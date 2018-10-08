@@ -6,6 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r527"	[$WIN32]
+		"xpos_minmode"	"r460"
+		"ypos_minmode"	"r95"
 		"ypos"			"r120"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
@@ -80,8 +82,11 @@
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"15"
 		"ypos"					"11"
+		"xpos_minmode"			"16"
+		"ypos_minmode"			"11"
 		"zpos"					"2"
 		"wide"					"40"
+		"wide_minmode"			"40"
 		"tall"					"40"	
 		"pinCorner"				"2"
 		"visible"				"1"

@@ -6,10 +6,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	[$WIN32]
+		"xpos_minmode"	"r107"
+		"ypos_minmode"	"r52"
 		"ypos"			"c88"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"300"
+		"wide_minmode"	"300"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -39,7 +42,9 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"80"
+		"xpos_minmode"			"35"
 		"ypos"					"14"
+		"ypos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -61,9 +66,12 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"49"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"10"
 		"ypos"					"24"
 		"zpos"					"2"
 		"wide"					"102"
+		"wide_minmode"			"107"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
